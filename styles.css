@@ -1,0 +1,36 @@
+ * {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#contenedor {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pantalla {
+    width: 12vh;
+    height: 4vh;
+    background-color: purple;
+    border: 0.3px solid black;
+}
+.num {
+    width: 4vh;
+   height: 4vh;
+   background-color: skyblue;
+   border: 0.3px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.op {
+    width: 4vh;
+    height: 4vh;
+    background-color: teal;
+    border: 0.3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
