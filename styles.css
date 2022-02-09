@@ -5,32 +5,43 @@
     padding: 0;
 }
 #contenedor {
-    height: 100vh;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.15rem;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#pantalla {
-    width: 12vh;
-    height: 4vh;
-    background-color: purple;
+    border-radius: 3px;
+    background-color: grey;
     border: 0.3px solid black;
 }
+#pantalla {
+    width: 3.8rem;
+    height: 0.95rem;
+    background-color: purple;
+    border: 0.3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
 .num {
-    width: 4vh;
-   height: 4vh;
-   background-color: skyblue;
-   border: 0.3px solid black;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    width: 0.95rem;
+    height: 0.95rem;
+    background-color: skyblue;
+    border: 0.3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%
 }
 .op {
-    width: 4vh;
-    height: 4vh;
+    width: 0.95rem;
+    height: 0.95rem;
     background-color: teal;
     border: 0.3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25%;
 }
