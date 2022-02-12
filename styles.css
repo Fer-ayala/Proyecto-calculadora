@@ -25,23 +25,24 @@
     align-items: center;
     border-radius: 3px;
 }
-.num {
+.nu {
     width: 0.95rem;
     height: 0.95rem;
-    background-color: skyblue;
-    border: 0.3px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25%
+    /* el de abajo es un cambio espectacular en los botones */
+    /* background-color: skyblue; */
+    /* border: 0.3px solid black; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border-radius: 25% */
 }
-.op {
+.ops {
     width: 0.95rem;
     height: 0.95rem;
-    background-color: teal;
-    border: 0.3px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25%;
+    /* background-color: teal; */
+    /* border: 0.3px solid black; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border-radius: 25%; */
 }
