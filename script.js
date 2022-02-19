@@ -87,3 +87,7 @@ btndiv.addEventListener("click", (infod) => {
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }
+const addChar = (string) => { 
+    inputText += string
+    texto.value = inputText
+}
