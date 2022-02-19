@@ -84,3 +84,6 @@ btndiv.addEventListener("click", (infod) => {
     inputText += "/"; 
     texto.value = inputText;
 });
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
